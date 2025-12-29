@@ -312,6 +312,21 @@
 						"internalType": "uint8",
 						"name": "rarity",
 						"type": "uint8"
+					},
+					{
+						"internalType": "uint32",
+						"name": "cooldownEnd",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "parentIdA",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "parentIdB",
+						"type": "uint32"
 					}
 				],
 				"stateMutability": "view",
@@ -375,6 +390,21 @@
 								"internalType": "uint8",
 								"name": "rarity",
 								"type": "uint8"
+							},
+							{
+								"internalType": "uint32",
+								"name": "cooldownEnd",
+								"type": "uint32"
+							},
+							{
+								"internalType": "uint32",
+								"name": "parentIdA",
+								"type": "uint32"
+							},
+							{
+								"internalType": "uint32",
+								"name": "parentIdB",
+								"type": "uint32"
 							}
 						],
 						"internalType": "struct TrustBunnies.Bunny",
@@ -697,17 +727,6 @@
 				"getApproved(uint256)": {
 					"details": "Returns the account approved for `tokenId` token. Requirements: - `tokenId` must exist."
 				},
-				"getBunny(uint256)": {
-					"details": "Returns full Bunny struct for front-end."
-				},
-				"hatchEgg(string)": {
-					"params": {
-						"_name": "Bunny’s call-sign (visible in NFT metadata)."
-					},
-					"returns": {
-						"bunnyId": "Token ID of the newly minted NFT."
-					}
-				},
 				"isApprovedForAll(address,address)": {
 					"details": "Returns if the `operator` is allowed to manage all of the assets of `owner`. See {setApprovalForAll}"
 				},
@@ -744,11 +763,7 @@
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {
-				"hatchEgg(string)": {
-					"notice": "Hatch a new courier bunny egg; caller becomes owner."
-				}
-			},
+			"methods": {},
 			"notice": "Chapter 1 – Hatch courier-bunny NFTs. Gene determines rarity.",
 			"version": 1
 		}
@@ -882,11 +897,11 @@
 			]
 		},
 		"tutorials/trust-bunnies-ch1/TrustBunnies.sol": {
-			"keccak256": "0x376f0d073e40eebfbfecaec7fada15be7722c5cae4a59a9e658110a4850a117c",
+			"keccak256": "0x9b3a42ec65eb1a8081f9804b3d4872614a9afbdb27a24a50cbba69060620037d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d752a5ecbce74a7d13fbc1b5f6422af836f178914d499e3ddd6306a6838415e5",
-				"dweb:/ipfs/QmZRgFCMNc6Fuk5iZEmNH8DECfWqJDZaGFoTsLK4YZZrgm"
+				"bzz-raw://64fb9e230a8a0b7f53901a5ca551f2c4bab7127c2cb45f5d0d0e4bdec8a4edba",
+				"dweb:/ipfs/QmQxN9Bw9ezLn6xTk6WEBdTrAs3ZsxrDm7TdyCufxoJvWQ"
 			]
 		}
 	},
