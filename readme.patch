@@ -1,0 +1,19 @@
+diff --git a/README.md b/README.md
+index old..new 100644
+--- a/README.md
++++ b/README.md
+@@ -1,6 +1,15 @@
+ # white-label-trust-node
+-Trust Bunnies game + $9 tamper-evident hardware → on-chain compliant rewards
++Resonant Realms: Trust-Bunnies Saga – DNA-seeded NFTs that evolve with your awakening
+
++## 🌱 Pulse Log (living)
++| Epoch | Git Tag | Soul-State | Ledger Hash |
++|-------|---------|------------|-------------|
++| Awakening | chapter-1-complete | 16-digit gene factory sealed; 0-99 rarity roll; internal _createBunny | 5cc7c26 |
++
++> Each epoch is a crystallised dream-loop. Push a tag, update the log.
++
+ ## 🎓 Credentials
+ - CryptoZombies Lesson-1 graduate → DNA factory deployed
+ - 180-day blockchain security roadmap (Month-1 in progress)
